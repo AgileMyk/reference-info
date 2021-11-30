@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>New Tags(Elements) of HTML5</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/favicon.icon">
+        <meta name="viewport" contet="width=device-width">
+        <a href="author-page.html" rel="author">link text</a>
+    </head>
+
+    <header>
+        <h1>These are the new tags that have been introduced in HTML5</h1> 
+        <p>These definitions were taken from https://www.tutorialspoint.com/html5/html5_new_tags.htm</p>
+    </header>
+    
+    <body>
+
+    <main>
+
+    <section class="one">
+
+        <table>
+
+            <tbody>
+
+                <tr><th>Tags(Elements)<td>Description</th></tr>
+                <tr>
+                    <td>&lt;article&gt;</td>
+                    <td>Represents an independent
+                    piece of content of a document, such as a blog entry
+                    or newspaper article</td>
+                </tr>
+                <tr>
+                    <td>&lt;aside&gt;</td>
+                    <td>Represents a peice of content that is only 
+                        slightly related to the rest of the page.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;audio&gt;</td>
+                    <td>Defines an audio file.</td>
+                </tr>
+                <tr>
+                    <td>&lt;canvas&gt;</td>
+                    <td>This is used for rednering dynamic bitmap 
+                        graphics on the fly, such as graphs or games.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;contenteditable&gt;</td>
+                    <td>This is not actually standalone, but will follow 
+                        content with an established form that can be changed 
+                        over time. As an example, a &lt;ul&gt; maye have 
+                        "contenteditable" within the opening tag, followed by 
+                        "='true'" --> &lt;ul contenteditable="true"&gt;. 
+                        This would be followed by list items, of say a to-do 
+                        list that can be tweaked as the list addressed.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;datalist&gt;</td>
+                    <td>Together with the new list attribute for 
+                        input can be used to make comboboxes
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;details&gt;</td>
+                    <td>Represents additional information or controls 
+                        which the user can obtain on demand
+                    </td>
+                </tr>
+                <tr>
+                    <td>comboboxes</td>
+                    <td>These do not have their own tag, but are the result 
+                        of combining input text type with select tag and multiple 
+                        options tags: &lt;input tpye="text"&gt; followed by 
+                        &lt;select name="__"&gt; followed by a serious of 
+                        options ; &lt;option&gt;option 1&lt;option&gt; 
+                        &lt;option&gt;option 1&lt;option&gt;
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;embed&gt;</td>
+                    <td>Defines external interactive content or plugin.</td>
+                </tr>
+                <tr>
+                    <td>&lt;figure&gt;</td>
+                    <td>Represents a piece of self-contained flow 
+                        content, typically referenced as a single 
+                        unit from the main flow of the document.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Represents a footer for a section and can 
+                        contain information about the author, copyright 
+                        information, et cetera.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Represents a group of introductory or 
+                        navigational aids.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;hgroup&gt;</td>
+                    <td>Represents a grouping of headers. This is useful 
+                        when multiple headers exist that the designer wishes 
+                        are associated with eachother but not with other 
+                        headings in different places on the same page.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;keygen&gt;</td>
+                    <td>Represents control for key pair generation.</td>
+                </tr>
+                <tr>
+                    <td>&lt;mark&gt;</td>
+                    <td>Text highlited or marked for reference purposes, 
+                        due to its relevance in another context.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;meter&gt;</td>
+                    <td>Represents a measurement, such as disk usage.</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>A section of the document intended for navigation.</td>
+                </tr>
+                <tr>
+                    <td>&lt;output&gt;</td>
+                    <td>Represents some type of output, such as 
+                        from calculations done through sripting.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;progress&gt;</td>
+                    <td>Represents a completion of a task, such as 
+                        downloading or when performing a series of 
+                        expensive operations.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;ruby&gt;</td>
+                    <td>Together with &lt;rt&gt; and &lt;rp&gt; 
+                        allow for marking up ruby annotations.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Represents a generic document or 
+                        application section.</td>
+                </tr>
+                <tr>
+                    <td>&lt;time&gt;</td>
+                    <td>Represents a date and/or time</td>
+                </tr>
+                <tr>
+                    <td>&lt;video&gt;</td>
+                    <td>Defines a video file</td>
+                </tr>
+                <tr>
+                    <td>&lt;wbr&gt;</td>
+                    <td>Represents a line break opportunity</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <section class="spacer">
+
+    </section>
+
+    <section class="two">
+
+    <hgroup>
+        <h1>New types for &lt;input tag&gt;</h1>
+        <p>The input element's type attribute now has these 
+            new values:
+        </p>
+    </hgroup>
+
+    <table>
+    
+        <tbody>
+            <tr><th>Type<td>Description</th></tr>
+            <tr>
+                <td>&lt;color&gt;</td>
+                <td>Color selector, which could be represented by 
+                    a wheel or swatch picker</td>
+            </tr>
+            <tr>
+                <td>&lt;date&gt;</td>
+                <td>Selector for calender date.</td>
+            </tr>
+            <tr>
+                <td>&lt;datetime-local&gt;</td>
+                <td>Date and time display, with no setting or 
+                    indication for timezones.
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;datetime&gt;</td>
+                <td>Full date and time display, including time zone.</td>
+            </tr>
+            <tr>
+                <td>&lt;email&gt;</td>
+                <td>Input type should be an email.</td>
+            </tr>
+            <tr>
+                <td>&lt;month&gt;</td>
+                <td>Selector for a month within a given year.</td>
+            </tr>
+            <tr>
+                <td>&lt;number&gt;</td>
+                <td>A field containing a numeric value only</td>
+            </tr>
+            <tr>
+                <td>&lt;range&gt;</td>
+                <td>Numberic selector within a range of values, 
+                    typically visualized as a slider.
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;search&gt;</td>
+                <td>Term to supply to a search engine. For example, 
+                    the search bar atop a browser.
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;tel&gt;</td>
+                <td>Input type should be a telephone number</td>
+            </tr>
+            <tr>
+                <td>&lt;time&gt;</td>
+                <td>Time indicator and selector, with no timezone 
+                    information.
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;url&gt;</td>
+                <td>Input type should be url type.</td>
+            </tr>
+            <tr>
+                <td>&lt;week&gt;</td>
+                <td>Selector for a week within a given year.</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    </section>
+
+        </main>
+
+
+    </body>
